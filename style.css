@@ -1,0 +1,26 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+/* The code below is for the header section */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+    background: #1F2937;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-links {
+    display: flex;
+    gap: 15px;
+    font-size: 18px;
+    color: #E5E7EB;
+    align-items: center;
+}
