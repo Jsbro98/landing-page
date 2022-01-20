@@ -25,7 +25,7 @@
     align-items: center;
 }
 
-/* first section */
+/* section one */
 
 .section.one {
     display: flex;
@@ -36,7 +36,7 @@
     padding: 200px;
 }
 
-.content-container {
+.one-container {
     display: flex;
     margin: 0 auto;
     width: 75%;
@@ -86,4 +86,65 @@
 #pug {
     width: auto;
     height: 200px;
+}
+
+/* section two */
+
+.section.two {
+    display: flex;
+    flex-flow: column wrap;
+    height: 400px; width: auto;
+    border: red 2px solid;
+}
+.section.two > * {
+    border: red 2px solid;
+}
+.section.two > * > * {
+    border: red 2px solid;
+}
+
+.two-title {
+    text-align: center;
+    font-weight: 800;
+    font-size: 36px;
+}
+
+.two-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.image-two.one {
+    background: url("images/pug-one.webp");
+    height: 100px; width: 100px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.image-two.two {
+    background: url("images/pug-two.webp");
+    height: 100px; width: 100px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.image-two.three {
+    background: url("images/pug-three.jpeg");
+    height: 100px; width: 100px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.image-two.four {
+    background: url("images/pug-four.webp");
+    height: 100px; width: 100px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
