@@ -123,4 +123,9 @@
     width: 100%; height: 100%;
 }
 
+.pug-two.two {
+    object-position: bottom;
+}
+
+
 
