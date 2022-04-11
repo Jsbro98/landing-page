@@ -148,3 +148,22 @@
     text-align: center;
 }
 
+/* section three */
+
+.section.three {
+    padding: 100px;
+    background-color: #E5E7EB;
+}
+
+.three-text-quote {
+    font-size: 36px;
+    font-style: italic;
+    opacity: 70%;
+    color: #1F2937;
+}
+
+.three-text-reference {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: end;
+}
