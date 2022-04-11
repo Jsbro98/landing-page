@@ -40,10 +40,15 @@
     display: flex;
     margin: 0 auto;
     width: 75%;
+    justify-content: space-around;
 }
 
 .content-container > * {
     flex: 1;
+}
+
+.text-one {
+    margin-right: 30px;
 }
 
 .text-one .one {
@@ -127,5 +132,8 @@
     object-position: bottom;
 }
 
+.pug-two.three {
+    object-position: -20px 0px;
+}
 
 
