@@ -220,3 +220,11 @@
     font-weight: bold;
     overflow: hidden;
 }
+
+.button-four:hover {
+    background-color: #4b8cf5;
+}
+
+.button-four:active {
+    background-color: #2175fc;
+}
