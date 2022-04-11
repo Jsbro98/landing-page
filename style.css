@@ -33,7 +33,7 @@
     width: auto;
     align-items: center;
     justify-content: center;
-    padding: 200px;
+    padding: 150px;
 }
 
 .one-container {
@@ -98,17 +98,23 @@
 .section.two {
     display: flex;
     flex-flow: column wrap;
-    height: 400px; width: auto;
+    padding: 25px;
 }
 
 .two-title {
-    text-align: center;
+    display: flex;
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
     font-weight: 800;
     font-size: 36px;
+    height: 65px;
+    flex: 1;
 }
 
 .two-container {
-    flex: 1;
+    flex: 1 1 auto;
+    gap: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -116,24 +122,29 @@
 }
 
 .two-box {
-    border: royalblue 5px solid;
-    height: 130px; width: 130px;
-    border-radius: 10%;
-    overflow: hidden;
-    margin: 0 20px;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px;
+    width: 175px;
 }
 
 .pug-two {
+    border: royalblue 5px solid;
+    height: 130px; width: 130px;
+    border-radius: 10%;
+    margin: 0 auto;
     object-fit: cover;
-    width: 100%; height: 100%;
 }
 
 .pug-two.two {
     object-position: bottom;
 }
 
-.pug-two.three {
-    object-position: -20px 0px;
+.pug-two.four {
+    object-position: top;
 }
 
+.two-text {
+    text-align: center;
+}
 
