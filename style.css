@@ -99,6 +99,7 @@
     display: flex;
     flex-flow: column wrap;
     padding: 25px;
+    padding-bottom: 125px;
 }
 
 .two-title {
@@ -163,7 +164,59 @@
 }
 
 .three-text-reference {
-    font-size: 28px;
+    font-size: 25px;
     font-weight: bold;
     text-align: end;
+}
+
+/* section four */
+
+.section.four {
+    padding: 50px 45px;
+    justify-content: center;
+    display: flex;
+}
+
+.four-container {
+    display: flex;
+    background-color: #3882f8;
+    padding: 40px 80px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    max-width: 900px;
+    flex: 1;
+}
+
+.four-container > * {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.call-action {
+    font-weight: bold;
+    font-size: 18px;
+    position: relative;
+    bottom: 5px;
+}
+
+.four-text {
+    color: white;
+    flex-grow: 2;
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-four {
+    background-color: #3882f8;
+    color: white;
+    border: white 2px solid;
+    border-radius: 15px;
+    width: 150px; height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    overflow: hidden;
 }
