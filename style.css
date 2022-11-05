@@ -104,6 +104,7 @@
 
 .two-title {
     display: flex;
+    text-align: center;
     margin: 30px;
     justify-content: center;
     align-items: center;
@@ -117,9 +118,10 @@
     flex: 1 1 auto;
     gap: 15px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     flex-flow: row wrap;
+    margin: 0 20vw;
 }
 
 .two-box {
