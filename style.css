@@ -48,17 +48,17 @@
 }
 
 .text-one {
-    margin-right: 30px;
+    margin-right: 3rem;
 }
 
 .text-one .one {
-    font-size: 48px;
+    font-size:calc(15px + 2vw);
     font-weight: 900;
     color: #F9FAF8;
 }
 
 .text-one .two {
-    font-size: 18px;
+    font-size:calc(8px + .5vw);
     color: #E5E7EB;
 }
 
@@ -86,11 +86,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex: 1;
 }
 
 .pug-one {
-    width: auto;
-    height: 200px;
+    width: 25%;
+    min-width: 200px;
+    height: auto;
 }
 
 /* section two */
